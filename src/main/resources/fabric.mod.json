@@ -4,7 +4,10 @@
   "version": "${version}",
   "name": "fast",
   "description": "",
-  "authors": [],
+  "authors": [
+    "millok_",
+    "KSmc_brigade"
+  ],
   "contact": {},
   "license": "MIT",
   "environment": "client",
