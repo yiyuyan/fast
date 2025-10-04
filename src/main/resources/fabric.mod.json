@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fast",
+  "version": "${version}",
+  "name": "fast",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.example.Fast"
+    ]
+  },
+  "mixins": [
+    "fast.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
